@@ -1,0 +1,22 @@
+{
+  "name": "sql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "settings.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-mtl/sqlexer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/y-mtl/sqlexer/issues"
+  },
+  "homepage": "https://github.com/y-mtl/sqlexer#readme",
+  "dependencies": {
+    "pg": "^7.4.1"
+  }
+}
