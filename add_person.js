@@ -22,7 +22,7 @@ function getPeople(res) {
   getFound(i);
 }
 
-// FIND Match
+// == FIND Match ==
 // knex.select('*')
 // .from('famous_people')
 // .where('first_name', '=', process.argv[2])// $1::text
@@ -36,7 +36,7 @@ function getPeople(res) {
 //   knex.destroy();
 // });
 
-// INSERT
+// == INSERT ==
 const fname = process.argv[2];
 const lname = process.argv[3];
 const dob = new Date(process.argv[4]); // form: yyyy/mm/dd
@@ -49,7 +49,7 @@ knex('famous_people').insert({first_name: fname, last_name: lname, birthdate: do
   knex.destroy();
 });
 
-// DEL
+// == DEL ==
 // knex('famous_people')
 // .where('id', 7)
 // .del()
